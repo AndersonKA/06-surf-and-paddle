@@ -6,6 +6,9 @@
 $c-banner: #2fa7b8;
 $c-nav: #103d88;
 $c-white: #fff;
+$c-link: #1c6da1;
+$c-date: #95a8ab;
+
 @import 'box-sizing';
 @import 'reset';
 
@@ -56,10 +59,10 @@ $c-white: #fff;
 
 .list-item {
   display: flex;
+  margin: 1rem;
   background: $c-white;
   color: $c-nav;
   text-decoration: none;
-  margin: 1rem;
 }
 
 .title {
@@ -76,4 +79,42 @@ $c-white: #fff;
 
 .title__bottom {
   color: $c-nav;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.grid {
+  display: flex;
+}
+
+.grid__left {
+  flex-grow: 2;
+  border: 0.5rem $c-banner solid;
+
+}
+
+.headline__title {
+  font-size: 40px;
+  color: $c-nav;
+}
+
+.headline__name {
+  color: $c-link;
+}
+
+.headline__on {
+  color: $c-date;
+}
+
+.headline__date {
+  color: $c-date;
+  text-decoration: underline;
+}
+
+.grid__right {
+  flex-grow: 1;
+  border: 0.5rem $c-banner solid;
+  background: $c-nav;
 }
