@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  align-self: center; /*this makes it so it won't stretch the height when it's in a flexbox*/
+}
