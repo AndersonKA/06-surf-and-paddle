@@ -27,16 +27,17 @@ $c-date: #95a8ab;
   background-repeat: no-repeat;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
 .logo-pic {
   max-width: 3rem;
-
 }
 
 .name {
   justify-content: center;
   padding: 1rem;
-  background: $c-white;
-
 }
 
 .nav__left {
@@ -90,14 +91,14 @@ $c-date: #95a8ab;
 }
 
 .grid__left {
-  flex-grow: 2;
+  flex-grow: 1.5;
+  padding: 1rem;
   border: 0.5rem $c-banner solid;
-
 }
 
 .headline__title {
-  font-size: 40px;
   color: $c-nav;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -114,9 +115,6 @@ $c-date: #95a8ab;
   text-decoration: underline;
 }
 
-.lorem {
-  padding: 1rem;
-}
 
 .lorem__indent {
   padding: 1rem;
@@ -145,6 +143,32 @@ $c-date: #95a8ab;
 
 .grid__right {
   flex-grow: 1;
+  padding: 1rem;
   border: 0.5rem $c-banner solid;
-  background: $c-nav;
+}
+
+.social {
+  align-items: center;
+}
+
+.social__name {
+  color: $c-nav;
+}
+
+.social__links {
+  color: $c-date;
+}
+
+.ad__link {
+  color: $c-date;
+  text-decoration: underline;
+}
+
+.sidebar__heading {
+  color: $c-nav;
+  text-transform: uppercase;
+}
+
+.sidebar__lorem {
+  color: $c-date;
 }
