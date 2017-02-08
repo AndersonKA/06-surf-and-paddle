@@ -98,6 +98,7 @@ $c-date: #95a8ab;
 .headline__title {
   font-size: 40px;
   color: $c-nav;
+  text-transform: uppercase;
 }
 
 .headline__name {
@@ -111,6 +112,35 @@ $c-date: #95a8ab;
 .headline__date {
   color: $c-date;
   text-decoration: underline;
+}
+
+.lorem {
+  padding: 1rem;
+}
+
+.lorem__indent {
+  padding: 1rem;
+}
+
+.lorem__pipe {
+  font-size: 20px;
+}
+
+.lorem__quote {
+  color: $c-nav;
+  text-transform: uppercase;
+}
+
+.lorem__links--comments {
+  background: $c-date;
+}
+
+.lorem__links--later {
+  background: $c-date;
+}
+
+.lorem__links--share {
+  background: $c-nav;
 }
 
 .grid__right {
