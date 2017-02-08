@@ -8,6 +8,8 @@ $c-nav: #103d88;
 $c-white: #fff;
 $c-link: #1c6da1;
 $c-date: #95a8ab;
+$c-jamaica1: #cc9037;
+$c-jamaica2: #95c762;
 
 @import 'box-sizing';
 @import 'reset';
@@ -23,7 +25,7 @@ $c-date: #95a8ab;
 }
 
 .hero-pic {
-  background: $c-banner;
+  background: url('/images/waves.jpg');
   background-repeat: no-repeat;
 }
 
@@ -31,6 +33,7 @@ $c-date: #95a8ab;
   display: flex;
   align-items: center;
 }
+
 .logo-pic {
   max-width: 3rem;
 }
@@ -61,7 +64,6 @@ $c-date: #95a8ab;
 .list-item {
   display: flex;
   margin: 1rem;
-  background: $c-white;
   color: $c-nav;
   text-decoration: none;
 }
@@ -88,11 +90,11 @@ $c-date: #95a8ab;
 
 .grid {
   display: flex;
+  padding: 3rem;
 }
 
 .grid__left {
   flex-grow: 1.5;
-  padding: 1rem;
   border: 0.5rem $c-banner solid;
 }
 
@@ -100,6 +102,11 @@ $c-date: #95a8ab;
   color: $c-nav;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+.headline__pic {
+  max-width: 1rem;
+  border-radius: 50%;
 }
 
 .headline__name {
@@ -115,7 +122,6 @@ $c-date: #95a8ab;
   text-decoration: underline;
 }
 
-
 .lorem__indent {
   padding: 1rem;
 }
@@ -129,26 +135,42 @@ $c-date: #95a8ab;
   text-transform: uppercase;
 }
 
+.lorem__links {
+  display: flex;
+  align-items: center;
+}
+
 .lorem__links--comments {
+  margin: 0.5rem;
   background: $c-date;
+  color: $c-white;
 }
 
 .lorem__links--later {
+  margin: 0.5rem;
   background: $c-date;
+  color: $c-white;
 }
 
 .lorem__links--share {
+  margin: 0.5rem;
   background: $c-nav;
+  color: $c-white;
 }
 
 .grid__right {
   flex-grow: 1;
-  padding: 1rem;
   border: 0.5rem $c-banner solid;
 }
 
 .social {
   align-items: center;
+  background: $c-jamaica1;
+}
+
+.social__pic {
+  max-width: 4rem;
+  border-radius: 50%;
 }
 
 .social__name {
@@ -157,6 +179,10 @@ $c-date: #95a8ab;
 
 .social__links {
   color: $c-date;
+}
+
+.ad {
+  background: $c-jamaica2;
 }
 
 .ad__link {
