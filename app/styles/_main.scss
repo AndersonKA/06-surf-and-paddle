@@ -66,18 +66,21 @@
 
 .lorem__links--comments {
   margin: 0.5rem;
+  border: 0.025rem $c-border1 solid;
   background: $c-date;
   color: $c-white;
 }
 
 .lorem__links--later {
   margin: 0.5rem;
+  border: 0.025rem $c-border1 solid;
   background: $c-date;
   color: $c-white;
 }
 
 .lorem__links--share {
   margin: 0.5rem;
+  border: 0.025rem $c-border2 solid;
   background: $c-nav;
   color: $c-white;
 }
