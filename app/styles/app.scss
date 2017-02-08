@@ -95,6 +95,7 @@ $c-jamaica2: #95c762;
 
 .grid__left {
   flex-grow: 1.5;
+  padding: 1rem;
   border: 0.5rem $c-banner solid;
 }
 
@@ -160,17 +161,23 @@ $c-jamaica2: #95c762;
 
 .grid__right {
   flex-grow: 1;
+  padding: 1rem;
   border: 0.5rem $c-banner solid;
 }
 
 .social {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: $c-jamaica1;
 }
 
 .social__pic {
   max-width: 4rem;
+  margin: 0.5rem;
   border-radius: 50%;
+
 }
 
 .social__name {
@@ -182,12 +189,18 @@ $c-jamaica2: #95c762;
 }
 
 .ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: $c-jamaica2;
 }
 
 .ad__link {
+  align-items: flex-end;
   color: $c-date;
   text-decoration: underline;
+
 }
 
 .sidebar__heading {
@@ -197,4 +210,15 @@ $c-jamaica2: #95c762;
 
 .sidebar__lorem {
   color: $c-date;
+}
+
+.bottom__grid {
+  display: flex;
+  max-width: 100vh;
+}
+
+.bottom__pic {
+  flex-grow: 1;
+  max-width: 20rem;
+  max-height: 20rem;
 }
