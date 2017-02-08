@@ -12,12 +12,12 @@
   margin: -1rem;
 
   &__right {
-    margin: 1rem;
+    margin: 2rem;
   }
 
   &__left {
     flex-grow: 1;
-    margin: 1rem;
+    margin: 2rem;
   }
 }
 
@@ -54,6 +54,10 @@
   font-size: 20px;
 }
 
+.lorem__innerlink {
+  color: $c-link;
+}
+
 .lorem__quote {
   color: $c-nav;
   text-transform: uppercase;
@@ -61,7 +65,8 @@
 
 .lorem__links {
   display: flex;
-  text-align: center;
+
+
 }
 
 .lorem__links--comments {
@@ -111,7 +116,6 @@
 .ad {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   padding: 2rem;
 
@@ -132,7 +136,7 @@
 
 .sidebar__heading {
   color: $c-nav;
-  text-align: center;
+
   text-transform: uppercase;
 }
 

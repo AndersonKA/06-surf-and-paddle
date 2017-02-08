@@ -1,6 +1,7 @@
 .bottom {
   border-top: 0.025rem $c-date solid;
 
+
   &__grid {
     display: flex;
   }
@@ -20,9 +21,6 @@
     flex-basis: 25%;
   }
 
-  &__pic {
-    max-height: 20rem;
-  }
 
   &__writing {
     position: absolute;
@@ -37,9 +35,11 @@
   &__footer {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
     background: $c-nav;
     color: $c-date;
   }
+
+
 
 }
