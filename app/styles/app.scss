@@ -196,7 +196,7 @@ $c-jamaica2: #95c762;
 }
 
 .ad__pic {
-  max-width: 20rem;
+  max-height: 20rem;
 }
 
 .ad__link {
@@ -206,7 +206,7 @@ $c-jamaica2: #95c762;
 }
 
 .sidebar {
-  max-width: 15rem;
+
 }
 
 .sidebar__heading {
@@ -233,7 +233,22 @@ $c-jamaica2: #95c762;
 }
 
 .bottom__pic {
+  flex-basis: calc(100% / 4);
   flex-grow: 1;
   max-width: 20rem;
   max-height: 20rem;
+
+
+}
+
+.bottom__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: $c-nav;
+  color: $c-date;
+}
+
+.bottom__footer--copyright {
+
 }
