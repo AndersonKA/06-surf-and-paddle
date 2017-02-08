@@ -16,15 +16,11 @@
   }
 
   &__square {
-    display: flex;
     position: relative;
+    flex-basis: 25%;
   }
 
   &__pic {
-    position: relative;
-    flex-basis: calc(100% / 4 - 4rem);
-    flex-grow: 1;
-    max-width: 20rem;
     max-height: 20rem;
   }
 
