@@ -1,13 +1,17 @@
 .bottom {
   border-top: 0.025rem $c-date solid;
+
 }
 
 .bottom__grid {
-  display: inline-block;
-  max-width: 100vh;
+  display: flex;
 }
 
 .bottom__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
   color: $c-nav;
   font-size: 3rem;
 }
@@ -15,11 +19,12 @@
 .bottom__square {
   display: flex;
   position: relative;
+
 }
 
 .bottom__pic {
   position: relative;
-  flex-basis: calc(100% / 4);
+  flex-basis: calc(100% / 4 - 4rem);
   flex-grow: 1;
   max-width: 20rem;
   max-height: 20rem;
@@ -27,11 +32,12 @@
 
 .bottom__writing {
   position: absolute;
-  color: $c-nav;
-  text-transform: uppercase;
-  padding: 0.5rem;
-  margin: 0;
   bottom: 0;
+  margin: 0;
+  padding: 0.5rem;
+  color: $c-nav;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 
@@ -41,8 +47,4 @@
   padding: 1rem;
   background: $c-nav;
   color: $c-date;
-}
-
-.bottom__footer--copyright {
-
 }

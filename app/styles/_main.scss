@@ -10,7 +10,6 @@
 .grid__left {
   flex-grow: 1;
   padding: 1rem;
-  // border: 0.5rem $c-banner solid;//
 }
 
 .headline__title {
@@ -116,10 +115,6 @@
   align-items: flex-end;
   color: $c-date;
   text-decoration: underline;
-}
-
-.sidebar {
-
 }
 
 .sidebar__heading {
