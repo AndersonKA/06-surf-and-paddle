@@ -1,7 +1,6 @@
 .bottom {
   border-top: 0.025rem $c-date solid;
 
-
   &__grid {
     display: flex;
   }
@@ -21,13 +20,12 @@
     flex-basis: 25%;
   }
 
-
   &__writing {
     position: absolute;
     bottom: 0;
     margin: 0;
     padding: 0.5rem;
-    color: $c-nav;
+    color: $c-white;
     font-size: 2rem;
     text-transform: uppercase;
   }
@@ -40,6 +38,18 @@
     color: $c-date;
   }
 
+  &__name {
+    padding: 1rem;
+  }
 
+}
 
+.bottom__footer--copyright {
+  display: flex;
+  align-items: center;
+}
+
+.bottom__footer--nav {
+  display: flex;
+  align-items: center;
 }
