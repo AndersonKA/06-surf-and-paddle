@@ -31,6 +31,7 @@
 .headline__pic {
   max-width: 1rem;
   border-radius: 50%;
+
 }
 
 .headline__name {
@@ -68,29 +69,62 @@
 
   &__links {
     display: flex;
+    flex-direction: row;
   }
 
-  &__links--comments {
-    margin: 0.5rem;
-    border: 0.025rem $c-border1 solid;
+  &__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem;
+    border: 0;
+    border-radius: 0;
     background: $c-date;
     color: $c-white;
+
   }
 
-  &__links--later {
-    margin: 0.5rem;
-    border: 0.025rem $c-border1 solid;
-    background: $c-date;
+
+  &__boxes2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem;
+    border: 0;
+    border-radius: 0;
+    background: $c-border2;
     color: $c-white;
+
   }
+  &__box--icon {
+    margin: 0;
+    padding: 0.5rem;
+
+  }
+
+  &__box--icon2 {
+    margin: 0;
+    padding: 0.5rem;
+
+  }
+
+  &__links--gray {
+    margin: 0.5rem;
+
+    text-align: center;
+  }
+
+
 
   &__links--share {
     margin: 0.5rem;
     border: 0.025rem $c-border2 solid;
-    background: $c-nav;
+
     color: $c-white;
   }
 }
+
+
 
 
 .social {
