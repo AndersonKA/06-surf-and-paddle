@@ -16,9 +16,9 @@
   }
 
   &__square {
+    display: flex;
     position: relative;
     flex-basis: 25%;
-    display: block;
   }
 
   &__writing {
