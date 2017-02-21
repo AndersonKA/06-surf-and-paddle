@@ -3,7 +3,7 @@
 }
 
 .container {
-  max-width: 60rem;
+  padding: 0 5rem;
   margin: auto;
 }
 
@@ -18,9 +18,9 @@
   &__left {
     flex-grow: 1;
     margin: 2rem;
+
   }
 }
-
 
 .headline__title {
   color: $c-nav;
@@ -84,7 +84,6 @@
 
   }
 
-
   &__boxes2 {
     display: flex;
     align-items: center;
@@ -96,6 +95,7 @@
     color: $c-white;
 
   }
+
   &__box--icon {
     margin: 0;
     padding: 0.5rem;
@@ -114,8 +114,6 @@
     text-align: center;
   }
 
-
-
   &__links--share {
     margin: 0.5rem;
     border: 0.025rem $c-border2 solid;
@@ -123,9 +121,6 @@
     color: $c-white;
   }
 }
-
-
-
 
 .social {
   display: flex;
@@ -149,7 +144,6 @@
   }
 }
 
-
 .ad {
   display: flex;
   flex-direction: column;
@@ -169,14 +163,20 @@
   }
 }
 
+.sidebar {
+  max-width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 
+  &__heading {
+    color: $c-nav;
+    text-transform: uppercase;
+  }
 
-.sidebar__heading {
-  color: $c-nav;
+  &__lorem {
+    color: $c-date;
+  }
 
-  text-transform: uppercase;
-}
-
-.sidebar__lorem {
-  color: $c-date;
 }
