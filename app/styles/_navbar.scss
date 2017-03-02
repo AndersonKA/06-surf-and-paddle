@@ -1,11 +1,7 @@
-.hero {
-  padding: 2rem;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding: 1rem;
 }
 
 .hero-pic {
@@ -29,19 +25,12 @@
 .nav__left {
   display: flex;
   align-items: center;
-  justify-content: center;
   color: $c-nav;
-}
-
-.nav__right {
-  justify-content: center;
 }
 
 .navbar__list {
   display: flex;
   align-items: center;
-  justify-content: center;
-
 }
 
 .list-item {

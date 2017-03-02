@@ -19,6 +19,11 @@
     display: flex;
     position: relative;
     flex-basis: 25%;
+    object-fit: contain;
+
+    &:hover {
+      filter: grayscale(1);
+    }
   }
 
   &__writing {
@@ -33,26 +38,30 @@
 
   &__footer {
     display: flex;
-    justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 0;
     background: $c-nav;
     color: $c-date;
   }
-
-  &__name {
-    padding: 1rem;
-  }
-
 }
 
-.bottom__footer--copyright {
+.bottom__footer--words {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bottom__footer--name {
   display: flex;
   align-items: center;
-  padding-left: 5rem;
+  margin: 1rem;
+
+  img {
+    margin-right: 1rem;
+  }
 }
 
 .bottom__footer--nav {
   display: flex;
   align-items: center;
-  padding-right: 5rem;
+  padding-right: 1rem;
 }
