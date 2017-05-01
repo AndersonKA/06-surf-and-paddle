@@ -1,0 +1,67 @@
+.bottom {
+  border-top: 0.025rem $c-date solid;
+
+  &__grid {
+    display: flex;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    color: $c-nav;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+
+  &__square {
+    display: flex;
+    position: relative;
+    flex-basis: 25%;
+    object-fit: contain;
+
+    &:hover {
+      filter: grayscale(1);
+    }
+  }
+
+  &__writing {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0.5rem;
+    color: $c-white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__footer {
+    display: flex;
+    padding: 2rem 0;
+    background: $c-nav;
+    color: $c-date;
+  }
+}
+
+.bottom__footer--words {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bottom__footer--name {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+
+  img {
+    margin-right: 1rem;
+  }
+}
+
+.bottom__footer--nav {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}

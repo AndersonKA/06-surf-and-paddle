@@ -1,0 +1,181 @@
+.section {
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  margin: -1rem;
+
+  &__right {
+    margin: 2rem;
+  }
+
+  &__left {
+    flex-grow: 1;
+    margin: 2rem;
+  }
+}
+
+.headline__title {
+  color: $c-nav;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.headline__pic {
+  max-width: 1rem;
+  border-radius: 50%;
+
+}
+
+.headline__name {
+  color: $c-link;
+}
+
+.headline__on {
+  color: $c-date;
+}
+
+.headline__date {
+  color: $c-date;
+  text-decoration: underline;
+}
+
+.lorem {
+  padding: 0.5rem;
+
+  &__indent {
+    padding: 1rem;
+  }
+
+  &__pipe {
+    font-size: 20px;
+  }
+
+  &__innerlink {
+    color: $c-link;
+  }
+
+  &__quote {
+    color: $c-nav;
+    text-transform: uppercase;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem;
+    border: 0;
+    border-radius: 0;
+    background: $c-date;
+    color: $c-white;
+
+  }
+
+  &__boxes2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0.3rem;
+    border: 0;
+    border-radius: 0;
+    background: $c-border2;
+    color: $c-white;
+
+  }
+
+  &__box--icon {
+    margin: 0;
+    padding: 0.5rem;
+
+  }
+
+  &__box--icon2 {
+    margin: 0;
+    padding: 0.5rem;
+
+  }
+
+  &__links--gray {
+    margin: 0.5rem;
+
+    text-align: center;
+  }
+
+  &__links--share {
+    margin: 0.5rem;
+    border: 0.025rem $c-border2 solid;
+
+    color: $c-white;
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__pic {
+    max-width: 4rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+  }
+
+  &__name {
+    color: $c-nav;
+  }
+
+  &__links {
+    margin: 1rem;
+    color: $c-date;
+  }
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+
+  &__pic {
+    min-width: 15rem;
+    max-height: 20rem;
+  }
+
+  &__link {
+    align-items: flex-end;
+    color: $c-date;
+    text-align: right;
+    text-decoration: underline;
+  }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 15rem;
+  margin: 0 auto;
+
+  &__heading {
+    color: $c-nav;
+    text-transform: uppercase;
+  }
+
+  &__lorem {
+    color: $c-date;
+  }
+
+}
